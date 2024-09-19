@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(79, 79, 234);
+    margin-top: 150px;
+}
+.countrys{
+   margin-top: 40px;
+   
+   
+    
+    
+}
+
+.country{
+   display: flex;
+   justify-content: center;
+   background-color: white;
+   margin: 0 480px;
+   height: 540px;
+   border-radius: 20px;
+
+   
+   
+}
+.flag-country{
+    text-align: center;
+    border-bottom: 4px solid black;
+}
+.text-country{
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 4px solid black;
+    margin-bottom: 20px;
+}
+
+.button-country{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+
+button{
+    border: none;
+    padding: 10px;
+    background-color: rgb(64, 64, 183);
+    width: 120px;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#country-image{
+    width: 250px;
+    height:150px;
+  
+}
+
+
+#myinput{
+    border:none ;
+    width: 250px;
+    height: 30px;
+    
+}
+::placeholder{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
